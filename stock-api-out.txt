@@ -1,0 +1,3130 @@
+2022-10-27T20:54:15.903Z [APPLICATION] INFO: Ticker: (BBBY)
+2022-10-27T20:54:20.688Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0,
+    "currentMarketValue": "N/A",
+    "description": "Trailing Annual Dividend Rate OR Forward Annual Dividend Rate Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "Quarterly Revenue Growth (yoy)": "2.62",
+    "PE Ratio (TTM)": "N/A",
+    "currentMarketValue": "N/A",
+    "description": "Quarterly Revenue Growth (yoy) OR PE Ratio (TTM) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.6590909090909091,
+    "percentSwing": -0.7608399999999997,
+    "currentMarketValue": 5,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 8.804199999999998,
+    "weight": -0.42891999999999997
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      5,
+      5.29,
+      4.26,
+      4.67
+    ],
+    "currentMarketValue": 5,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 5,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 9.0125,
+    "weight": 1.8025
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 5,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 5.131,
+    "weight": 1.0262
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 5,
+    "description": "(Quarterly Earnings Growth (yoy) = NA",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 2057308000,
+    "Current Liabilities": 2026455000,
+    "currentMarketValue": 5,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 5,
+    "weight": 1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 344620649,
+    "Previous Issued Shares": 344146000,
+    "currentMarketValue": 5,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 4.993103958784934,
+    "weight": -0.9986207917569868
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 344620649,
+    "Previous Issued Shares": 344146000,
+    "currentMarketValue": 5,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 4.993103958784934,
+    "weight": -0.9986207917569868
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "currentMarketValue": "N/A",
+    "description": "10 Year Govt Treasury (YTM) OR Yoy CPI OR Dividend Yield is N/A ",
+    "estimatedStockPrice": 5,
+    "weight": "N/A"
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 5,
+    "description": "Operating Cash Flow (ttm) < 0",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  }
+}
+2022-10-27T20:54:20.688Z [APPLICATION] INFO: Ticker: (BAC)
+2022-10-27T20:54:26.761Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0.85,
+    "Forward Annual Dividend Rate": 0.88,
+    "currentMarketValue": 35.7,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 36.96000000000001,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 35.7,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 35.7,
+    "weight": -1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.14634146341463414,
+    "percentSwing": -0.11288515406162468,
+    "currentMarketValue": 35.7,
+    "description": "200-Day Moving Average > Previous Close > 50-Day Moving Average AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 33.32,
+    "weight": -1.0666666666666667
+  },
+  "6.) Stock Movement Seven Days": {
+    "currentMarketValue": 35.7,
+    "description": "(Close* of Yesterday) > (Close* of 3rd line date) > (Close* of 4th line date) > (Close* of 5th line date) > (Close* of 6th line date)",
+    "estimatedStockPrice": null,
+    "weight": null
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 35.7,
+    "description": "(Short % of Shares Outstanding) < 30% || (Short % of Shares Outstanding) > 5% )",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 35.7,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 69.15447,
+    "weight": 1.9371
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 35.7,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 340.40664000000004,
+    "weight": 9.5352
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 11.2,
+    "Forward P/E": 9.59,
+    "currentMarketValue": 35.7,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 30.612400000000004,
+    "weight": 4.087599999999998
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 8035221887,
+    "Previous Issued Shares": 8062102236,
+    "currentMarketValue": 35.7,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 35.81902955720593,
+    "weight": 1.0033341612662725
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 8035221887,
+    "Previous Issued Shares": 8062102236,
+    "currentMarketValue": 35.7,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 35.81902955720593,
+    "weight": 1.0033341612662725
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.024600001,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 35.7,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:54:26.772Z [APPLICATION] INFO: Ticker: (TSLA)
+2022-10-27T20:54:30.978Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0,
+    "currentMarketValue": "N/A",
+    "description": "Trailing Annual Dividend Rate OR Forward Annual Dividend Rate Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 224.64,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 224.64,
+    "weight": 1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.1780821917808219,
+    "percentSwing": -0.06152065527065524,
+    "currentMarketValue": 224.64,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 238.45999999999998,
+    "weight": -0.8166399572649572
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      224.639999,
+      222.419998,
+      211.25,
+      214.440002
+    ],
+    "currentMarketValue": 224.64,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 224.64,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 231.73862400000002,
+    "weight": 1.0316
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 224.64,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 255.21350399999997,
+    "weight": 1.1360999999999999
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 224.64,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 272.061504,
+    "weight": 1.2111
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 76.26,
+    "Forward P/E": 35.97,
+    "currentMarketValue": 224.64,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 106.99319999999997,
+    "weight": 116.64680000000001
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 31222000000,
+    "Current Liabilities": 21821000000,
+    "currentMarketValue": 224.64,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 224.64,
+    "weight": 1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 3123000000,
+    "Previous Issued Shares": 3108000000,
+    "currentMarketValue": 224.64,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 223.5558301158301,
+    "weight": -0.9951737451737451
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 3123000000,
+    "Previous Issued Shares": 3108000000,
+    "currentMarketValue": 224.64,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 223.5558301158301,
+    "weight": -0.9951737451737451
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "currentMarketValue": "N/A",
+    "description": "10 Year Govt Treasury (YTM) OR Yoy CPI OR Dividend Yield is N/A ",
+    "estimatedStockPrice": 224.64,
+    "weight": "N/A"
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 224.64,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:54:30.978Z [APPLICATION] INFO: Ticker: (MSFT)
+2022-10-27T20:54:35.818Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 2.48,
+    "Forward Annual Dividend Rate": 2.72,
+    "currentMarketValue": 231.32,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 253.70580645161291,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 231.32,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 231.32,
+    "weight": -1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 0.46153846153846156,
+    "percentSwing": -0.1008127269583261,
+    "currentMarketValue": 231.32,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 250.38,
+    "weight": 1.0823966799239149
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      231.320007,
+      250.660004,
+      247.25,
+      242.119995
+    ],
+    "currentMarketValue": 231.32,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 231.32,
+    "description": "(Short % of Shares Outstanding) < 30% || (Short % of Shares Outstanding) > 5% )",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 231.32,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 545.036184,
+    "weight": 2.3562000000000003
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 231.32,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 473.62770000000006,
+    "weight": 2.0475000000000003
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 25.09,
+    "Forward P/E": 24.1,
+    "currentMarketValue": 231.32,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 221.7665,
+    "weight": 8.553499999999985
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 169684000000,
+    "Current Liabilities": 95082000000,
+    "currentMarketValue": 231.32,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 231.32,
+    "weight": 1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 7464000000,
+    "Previous Issued Shares": 7483000000,
+    "currentMarketValue": 231.32,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 231.90734197514365,
+    "weight": 1.0025390886008285
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 7464000000,
+    "Previous Issued Shares": 7483000000,
+    "currentMarketValue": 231.32,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 231.90734197514365,
+    "weight": 1.0025390886008285
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0109,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 231.32,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:54:35.819Z [APPLICATION] INFO: Ticker: (META)
+2022-10-27T20:54:39.326Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0,
+    "currentMarketValue": "N/A",
+    "description": "Trailing Annual Dividend Rate OR Forward Annual Dividend Rate Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 129.82,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 129.82,
+    "weight": -1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 6.6,
+    "percentSwing": -0.3386997380989062,
+    "currentMarketValue": 129.82,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 147.2,
+    "weight": 1.1338776767832384
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      129.820007,
+      137.509995,
+      129.720001,
+      130.009995
+    ],
+    "currentMarketValue": 129.82,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 129.82,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 132.77989599999998,
+    "weight": 1.0228
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 129.82,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 253.51249599999997,
+    "weight": 1.9527999999999999
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 129.82,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 182.384118,
+    "weight": 1.4049
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 10.78,
+    "Forward P/E": 11.75,
+    "currentMarketValue": 129.82,
+    "description": "Expected Stock Price Move > 0",
+    "estimatedStockPrice": 142.1972,
+    "weight": 13.377200000000007
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 55987000000,
+    "Current Liabilities": 22217000000,
+    "currentMarketValue": 129.82,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 129.82,
+    "weight": 1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 2697000000,
+    "Previous Issued Shares": 2714000000,
+    "currentMarketValue": 129.82,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 130.63316875460575,
+    "weight": 1.0062638172439204
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 2697000000,
+    "Previous Issued Shares": 2714000000,
+    "currentMarketValue": 129.82,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 130.63316875460575,
+    "weight": 1.0062638172439204
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "currentMarketValue": "N/A",
+    "description": "10 Year Govt Treasury (YTM) OR Yoy CPI OR Dividend Yield is N/A ",
+    "estimatedStockPrice": 129.82,
+    "weight": "N/A"
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 129.82,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:54:39.327Z [APPLICATION] INFO: Ticker: (NFLX)
+2022-10-27T20:54:43.786Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0,
+    "currentMarketValue": "N/A",
+    "description": "Trailing Annual Dividend Rate OR Forward Annual Dividend Rate Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 298.62,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 298.62,
+    "weight": 1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 0.2727272727272727,
+    "percentSwing": -0.12152568481682394,
+    "currentMarketValue": 298.62,
+    "description": "Previous Close > 200-Day Moving Average > 50-Day Moving Average AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 334.90999999999997,
+    "weight": 1.121525684816824
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      298.619995,
+      291.019989,
+      282.450012,
+      289.570007
+    ],
+    "currentMarketValue": 298.62,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 298.62,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 1627.538724,
+    "weight": 5.4502
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 298.62,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 335.55929399999997,
+    "weight": 1.1237
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 298.62,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 316.865682,
+    "weight": 1.0611
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 26.05,
+    "Forward P/E": 26.18,
+    "currentMarketValue": 298.62,
+    "description": "Expected Stock Price Move > 0",
+    "estimatedStockPrice": 300.0799,
+    "weight": 2.4598999999999887
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 7840778000,
+    "Current Liabilities": 7500022000,
+    "currentMarketValue": 298.62,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 298.62,
+    "weight": 1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 446270069,
+    "Previous Issued Shares": 445838328,
+    "currentMarketValue": 298.62,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 298.33082231086246,
+    "weight": -0.9990316198207168
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 446270069,
+    "Previous Issued Shares": 445838328,
+    "currentMarketValue": 298.62,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 298.33082231086246,
+    "weight": -0.9990316198207168
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "currentMarketValue": "N/A",
+    "description": "10 Year Govt Treasury (YTM) OR Yoy CPI OR Dividend Yield is N/A ",
+    "estimatedStockPrice": 298.62,
+    "weight": "N/A"
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 298.62,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:54:43.786Z [APPLICATION] INFO: Ticker: (JPM)
+2022-10-27T20:54:48.712Z [APPLICATION] INFO: {
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 124.11,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 124.11,
+    "weight": -1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.25,
+    "percentSwing": -0.09693014261542181,
+    "currentMarketValue": 124.11,
+    "description": "200-Day Moving Average > Previous Close > 50-Day Moving Average AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 114.07,
+    "weight": -1.0808959793731368
+  },
+  "6.) Stock Movement Seven Days": {
+    "currentMarketValue": 124.11,
+    "description": "(Close* of Yesterday) > (Close* of 3rd line date) > (Close* of 4th line date) > (Close* of 5th line date) > (Close* of 6th line date)",
+    "estimatedStockPrice": null,
+    "weight": null
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 124.11,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 127.74642300000001,
+    "weight": 1.0293
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 124.11,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 286.56999,
+    "weight": 2.309
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 124.11,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 738.7151309999999,
+    "weight": 5.9521
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 10.31,
+    "Forward P/E": 9.53,
+    "currentMarketValue": 124.11,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 114.86699999999999,
+    "weight": 8.243000000000013
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0322,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 124.11,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:54:48.713Z [APPLICATION] INFO: Ticker: (GS)
+2022-10-27T20:54:53.611Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 8.5,
+    "Forward Annual Dividend Rate": 10,
+    "currentMarketValue": 335.69,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 394.9294117647059,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 335.69,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 335.69,
+    "weight": -1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.5,
+    "percentSwing": -0.012511543388245243,
+    "currentMarketValue": 335.69,
+    "description": "Previous Close > 200-Day Moving Average > 50-Day Moving Average AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 325.66,
+    "weight": -1.02987875718669
+  },
+  "6.) Stock Movement Seven Days": {
+    "currentMarketValue": 335.69,
+    "description": "(Close* of Yesterday) > (Close* of 3rd line date) > (Close* of 4th line date) > (Close* of 5th line date) > (Close* of 6th line date)",
+    "estimatedStockPrice": null,
+    "weight": null
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 335.69,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 1481.6013840000003,
+    "weight": 4.413600000000001
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 335.69,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 512.5986300000001,
+    "weight": 1.5270000000000001
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 335.69,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 2578.0992,
+    "weight": 7.68
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 8.85,
+    "Forward P/E": 8.5,
+    "currentMarketValue": 335.69,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 322.5405,
+    "weight": 12.149499999999987
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 917638957,
+    "Previous Issued Shares": 917527245,
+    "currentMarketValue": 335.69,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 335.64912862371733,
+    "weight": -0.9998782466672148
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 917638957,
+    "Previous Issued Shares": 917527245,
+    "currentMarketValue": 335.69,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 335.64912862371733,
+    "weight": -0.9998782466672148
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0298,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 335.69,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:54:53.611Z [APPLICATION] INFO: Ticker: (NDAQ)
+2022-10-27T20:54:57.674Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0.763,
+    "Forward Annual Dividend Rate": 0.8,
+    "currentMarketValue": 60.03,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 62.94102228047182,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 60.03,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 60.03,
+    "weight": 1
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      60.029999,
+      60.549999,
+      58.77,
+      57.740002
+    ],
+    "currentMarketValue": 60.03,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 60.03,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 354.915369,
+    "weight": 5.9123
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 60.03,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 62.083026000000004,
+    "weight": 1.0342
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 60.03,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 318.159,
+    "weight": 5.3
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 26.37,
+    "Forward P/E": 21.37,
+    "currentMarketValue": 60.03,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 48.63,
+    "weight": 10.399999999999999
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 10218000000,
+    "Current Liabilities": 10871000000,
+    "currentMarketValue": 60.03,
+    "description": "Current Assets < Current Liabilities ",
+    "estimatedStockPrice": 60.03,
+    "weight": -1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 512666214,
+    "Previous Issued Shares": 514606371,
+    "currentMarketValue": 60.03,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 60.25632371317844,
+    "weight": 1.0037701767979084
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 512666214,
+    "Previous Issued Shares": 514606371,
+    "currentMarketValue": 60.03,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 60.25632371317844,
+    "weight": 1.0037701767979084
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0139,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 60.03,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:54:57.674Z [APPLICATION] INFO: Ticker: (ALLY)
+2022-10-27T20:55:01.491Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.15,
+    "Forward Annual Dividend Rate": 1.2,
+    "currentMarketValue": 27.18,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 28.36173913043478,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 27.18,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 27.18,
+    "weight": -1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 0.25,
+    "percentSwing": -0.28035320088300225,
+    "currentMarketValue": 27.18,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 31.12,
+    "weight": 1.1449595290654893
+  },
+  "6.) Stock Movement Seven Days": {
+    "currentMarketValue": 27.18,
+    "description": "(Close* of Yesterday) > (Close* of 3rd line date) > (Close* of 4th line date) > (Close* of 5th line date) > (Close* of 6th line date)",
+    "estimatedStockPrice": null,
+    "weight": null
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 27.18,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 108.81241199999998,
+    "weight": 4.003399999999999
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 27.18,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 29.536506,
+    "weight": 1.0867
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 27.18,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 28.539,
+    "weight": 1.05
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 3.89,
+    "Forward P/E": 5.19,
+    "currentMarketValue": 27.18,
+    "description": "Expected Stock Price Move > 0",
+    "estimatedStockPrice": 36.267,
+    "weight": 10.087000000000002
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 506940912,
+    "Previous Issued Shares": 506435119,
+    "currentMarketValue": 27.18,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 27.152854462054,
+    "weight": -0.9990012679195733
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 506940912,
+    "Previous Issued Shares": 506435119,
+    "currentMarketValue": 27.18,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 27.152854462054,
+    "weight": -0.9990012679195733
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0442,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 27.18,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:55:01.492Z [APPLICATION] INFO: Ticker: (PG)
+2022-10-27T20:55:07.706Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 3.566,
+    "Forward Annual Dividend Rate": 3.65,
+    "currentMarketValue": 131.78,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 134.88418395961864,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 131.78,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 131.78,
+    "weight": 1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.3333333333333333,
+    "percentSwing": -0.09174381544999222,
+    "currentMarketValue": 131.78,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 143.86999999999998,
+    "weight": -0.9751859159204734
+  },
+  "6.) Stock Movement Seven Days": {
+    "currentMarketValue": 131.78,
+    "description": "(Close* of Yesterday) > (Close* of 3rd line date) > (Close* of 4th line date) > (Close* of 5th line date) > (Close* of 6th line date)",
+    "estimatedStockPrice": null,
+    "weight": null
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 131.78,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 134.903186,
+    "weight": 1.0237
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 131.78,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 182.13313799999997,
+    "weight": 1.3820999999999999
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 131.78,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 140.622438,
+    "weight": 1.0671
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 22.84,
+    "Forward P/E": 22.68,
+    "currentMarketValue": 131.78,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 130.8568,
+    "weight": -0.0767999999999992
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 21653000000,
+    "Current Liabilities": 33081000000,
+    "currentMarketValue": 131.78,
+    "description": "Current Assets < Current Liabilities ",
+    "estimatedStockPrice": 131.78,
+    "weight": -1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 4009200000,
+    "Previous Issued Shares": 4009199841,
+    "currentMarketValue": 131.78,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 131.77999477376514,
+    "weight": -0.9999999603412136
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 4009200000,
+    "Previous Issued Shares": 4009199841,
+    "currentMarketValue": 131.78,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 131.77999477376514,
+    "weight": -0.9999999603412136
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0279,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 131.78,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:55:07.706Z [APPLICATION] INFO: Ticker: (QCOM)
+2022-10-27T20:55:13.424Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 2.79,
+    "Forward Annual Dividend Rate": 3,
+    "currentMarketValue": 118.11,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 126.99999999999999,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 118.11,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 118.11,
+    "weight": 1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 0.14285714285714285,
+    "percentSwing": -0.15011430022860037,
+    "currentMarketValue": 118.11,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 125.22,
+    "weight": 1.0601981203962407
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      118.110001,
+      119.169998,
+      116.379997,
+      115.739998
+    ],
+    "currentMarketValue": 118.11,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 118.11,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 119.432832,
+    "weight": 1.0112
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 118.11,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 140.90523000000002,
+    "weight": 1.193
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 118.11,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 126.200535,
+    "weight": 1.0685
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 10.47,
+    "Forward P/E": 9.05,
+    "currentMarketValue": 118.11,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 102.0924,
+    "weight": 15.017599999999998
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 18999000000,
+    "Current Liabilities": 11829000000,
+    "currentMarketValue": 118.11,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 118.11,
+    "weight": 1
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.025799999,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 118.11,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:55:13.424Z [APPLICATION] INFO: Ticker: (NVDA)
+2022-10-27T20:55:18.416Z [APPLICATION] INFO: {
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 128.96,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 128.96,
+    "weight": 1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.017543859649122806,
+    "percentSwing": -0.40656017369727027,
+    "currentMarketValue": 128.96,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 181.39,
+    "weight": -0.9377326302729528
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      128.960007,
+      132.610001,
+      125.989998,
+      124.660004
+    ],
+    "currentMarketValue": 128.96,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 128.96,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 132.17110399999999,
+    "weight": 1.0249
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 128.96,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 151.50220800000002,
+    "weight": 1.1748
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 128.96,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 150.934784,
+    "weight": 1.1703999999999999
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 43.34,
+    "Forward P/E": 29.24,
+    "currentMarketValue": 128.96,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 76.36699999999999,
+    "weight": 51.59300000000002
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 29575000000,
+    "Current Liabilities": 5562000000,
+    "currentMarketValue": 128.96,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 128.96,
+    "weight": 1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 2504000000,
+    "Previous Issued Shares": 2506000000,
+    "currentMarketValue": 128.96,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 129.0629209896249,
+    "weight": 1.0007980845969673
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 2504000000,
+    "Previous Issued Shares": 2506000000,
+    "currentMarketValue": 128.96,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) > 0",
+    "estimatedStockPrice": 129.0629209896249,
+    "weight": 1.0007980845969673
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0011999999,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 128.96,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:55:18.416Z [APPLICATION] INFO: Ticker: (JNJ)
+2022-10-27T20:55:24.213Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 4.38,
+    "Forward Annual Dividend Rate": 4.52,
+    "currentMarketValue": 172.21,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 177.71442922374428,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 172.21,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 172.21,
+    "weight": -1
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.2857142857142857,
+    "percentSwing": -0.038557575053713405,
+    "currentMarketValue": 172.21,
+    "description": "Previous Close > 200-Day Moving Average > 50-Day Moving Average AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 171.85,
+    "weight": -1.0020904709366472
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      172.210007,
+      170.710007,
+      170.979996,
+      168.710007
+    ],
+    "currentMarketValue": 172.21,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 172.21,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 176.739123,
+    "weight": 1.0263
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 172.21,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 282.458842,
+    "weight": 1.6402
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 172.21,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 228.29879699999998,
+    "weight": 1.3256999999999999
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 23.78,
+    "Forward P/E": 16.21,
+    "currentMarketValue": 172.21,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 117.85740000000001,
+    "weight": 53.3526
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 63847000000,
+    "Current Liabilities": 44821000000,
+    "currentMarketValue": 172.21,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 172.21,
+    "weight": 1
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.026199998,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 172.21,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:55:24.214Z [APPLICATION] INFO: Ticker: (TSM)
+2022-10-27T20:55:28.609Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 2.75,
+    "Forward Annual Dividend Rate": 1.84,
+    "currentMarketValue": 60.84,
+    "description": "Trailing Annual Dividend Rate > Forward Annual Dividend Rate",
+    "estimatedStockPrice": 40.707490909090914,
+    "weight": 1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 60.84,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 60.84,
+    "weight": -1
+  },
+  "6.) Stock Movement Seven Days": {
+    "currentMarketValue": 60.84,
+    "description": "(Close* of Yesterday) < (Close* of 3rd line date) < (Close* of 4th line date) < (Close* of 5th line date) < (Close* of 6th line date)",
+    "estimatedStockPrice": 62.295,
+    "weight": 63.295
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 60.84,
+    "description": "(Short % of Shares Outstanding) < 30% || (Short % of Shares Outstanding) > 5% )",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 60.84,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 559.448136,
+    "weight": 9.1954
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 60.84,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 65.238732,
+    "weight": 1.0723
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": 14.03,
+    "Forward P/E": 11.26,
+    "currentMarketValue": 60.84,
+    "description": "Expected Stock Price Move < 0",
+    "estimatedStockPrice": 48.2642,
+    "weight": 11.575799999999997
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 1905866396000,
+    "Current Liabilities": 845240981000,
+    "currentMarketValue": 60.84,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 60.84,
+    "weight": 1
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.030199999,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 60.84,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:55:28.609Z [APPLICATION] INFO: Ticker: (BEEM)
+2022-10-27T20:55:32.987Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0,
+    "currentMarketValue": "N/A",
+    "description": "Trailing Annual Dividend Rate OR Forward Annual Dividend Rate Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "Quarterly Revenue Growth (yoy)": "-971.64",
+    "PE Ratio (TTM)": "N/A",
+    "currentMarketValue": "N/A",
+    "description": "Quarterly Revenue Growth (yoy) OR PE Ratio (TTM) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.3709677419354839,
+    "percentSwing": -0.16681222707423582,
+    "currentMarketValue": 11.45,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 13.36,
+    "weight": -0.8611353711790393
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [
+      11.45,
+      12.01,
+      10.54,
+      9.38
+    ],
+    "currentMarketValue": 11.45,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 11.45,
+    "description": "(Short % of Shares Outstanding) < 30% || (Short % of Shares Outstanding) > 5% )",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 11.45,
+    "description": "(Quarterly Revenue Growth (yoy) < 0",
+    "estimatedStockPrice": -99.80278,
+    "weight": -10.7164
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 11.45,
+    "description": "(Quarterly Earnings Growth (yoy) = NA",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": 27223000,
+    "Current Liabilities": 7854000,
+    "currentMarketValue": 11.45,
+    "description": "Current Assets > Current Liabilities",
+    "estimatedStockPrice": 11.45,
+    "weight": 1
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": 10084184,
+    "Previous Issued Shares": 10048091,
+    "currentMarketValue": 11.45,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 11.408871306997519,
+    "weight": -0.9964079744102636
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": 10084184,
+    "Previous Issued Shares": 10048091,
+    "currentMarketValue": 11.45,
+    "description": "((Previous Issued Shares) - (Current Issued Shares)) < 0",
+    "estimatedStockPrice": 11.408871306997519,
+    "weight": -0.9964079744102636
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "currentMarketValue": "N/A",
+    "description": "10 Year Govt Treasury (YTM) OR Yoy CPI OR Dividend Yield is N/A ",
+    "estimatedStockPrice": 11.45,
+    "weight": "N/A"
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 11.45,
+    "description": "Operating Cash Flow (ttm) < 0",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  }
+}
+2022-10-27T20:55:32.987Z [APPLICATION] INFO: Ticker: (MCD)
+2022-10-27T20:55:43.828Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 5.08,
+    "Forward Annual Dividend Rate": 5.52,
+    "currentMarketValue": 256.61,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 278.83606299212596,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 256.61,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 256.61,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.554704,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 0.5,
+    "percentSwing": 0.004637387475156843,
+    "currentMarketValue": 256.61,
+    "description": "Previous Close > 50-Day Moving Average > 200-Day Moving Average AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 250.51,
+    "weight": 0.97622851798449
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 256.61,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 256.61,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 2174.1025640000003,
+    "weight": 8.4724
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 256.61,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 288.89153799999997,
+    "weight": 1.1258
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 256.61,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 262.665996,
+    "weight": 1.0236
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 256.61,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 256.61,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.021,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 256.61,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:55:43.828Z [APPLICATION] INFO: Ticker: (SBUX)
+2022-10-27T20:55:54.526Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.76,
+    "Forward Annual Dividend Rate": 1.96,
+    "currentMarketValue": 85.89,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 95.65022727272726,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 85.89,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 85.89,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.925074,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 0.2857142857142857,
+    "percentSwing": 0.0268948655256724,
+    "currentMarketValue": 85.89,
+    "description": "50-Day Moving Average > Previous Close > 200-Day Moving Average AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 87.09,
+    "weight": 1.013971358714635
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 85.89,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 85.89,
+    "description": "(Short % of Shares Outstanding) < 30% || (Short % of Shares Outstanding) > 5% )",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 85.89,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 93.139116,
+    "weight": 1.0844
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 85.89,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 89.32560000000001,
+    "weight": 1.04
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 85.89,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 85.89,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0231,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 85.89,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:55:54.526Z [APPLICATION] INFO: Ticker: (AMD)
+2022-10-27T20:56:04.654Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "currentMarketValue": "N/A",
+    "description": "Trailing Annual Dividend Rate OR Forward Annual Dividend Rate Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 59.73,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 59.73,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 1.940825,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 59.73,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 59.73,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 60.452732999999995,
+    "weight": 1.0121
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 59.73,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 64.466589,
+    "weight": 1.0793
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 59.73,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 63.630368999999995,
+    "weight": 1.0653
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 59.73,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 59.73,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "currentMarketValue": "N/A",
+    "description": "10 Year Govt Treasury (YTM) OR Yoy CPI OR Dividend Yield is N/A ",
+    "estimatedStockPrice": 59.73,
+    "weight": "N/A"
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 59.73,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:56:04.654Z [APPLICATION] INFO: Ticker: (HASI)
+2022-10-27T20:56:15.946Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.36,
+    "Forward Annual Dividend Rate": 1.5,
+    "currentMarketValue": 25.88,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 28.54411764705882,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 25.88,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 25.88,
+    "weight": -1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 1.723712,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.9987951807228915,
+    "percentSwing": -0.21445131375579587,
+    "currentMarketValue": 25.88,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 31.429999999999996,
+    "weight": -0.7102009273570323
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 25.88,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 25.88,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 47.748599999999996,
+    "weight": 1.845
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 25.88,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 49.423035999999996,
+    "weight": 1.9097
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 25.88,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 60.38321599999999,
+    "weight": 2.3331999999999997
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 25.88,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 25.88,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0416,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 25.88,
+    "description": "Operating Cash Flow (ttm) < 0",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  }
+}
+2022-10-27T20:56:15.947Z [APPLICATION] INFO: Ticker: (O)
+2022-10-27T20:56:26.979Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 2.807,
+    "Forward Annual Dividend Rate": 2.97,
+    "currentMarketValue": 60.6,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 64.11898824367653,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 60.6,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 60.6,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.704555,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.25,
+    "percentSwing": -0.06699669966996714,
+    "currentMarketValue": 60.6,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 64.66000000000001,
+    "weight": -0.9524752475247525
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 60.6,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 60.6,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 403.45056,
+    "weight": 6.6575999999999995
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 60.6,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 61.78170000000001,
+    "weight": 1.0195
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 60.6,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 152.48172,
+    "weight": 2.5162
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 60.6,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 60.6,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0401,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 60.6,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:56:26.979Z [APPLICATION] INFO: Ticker: (KIM)
+2022-10-27T20:56:37.392Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0.43,
+    "Forward Annual Dividend Rate": 0.88,
+    "currentMarketValue": 20.5,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 41.95348837209303,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 20.5,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 20.5,
+    "weight": -1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 1.392081,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 0.25,
+    "percentSwing": -0.09853658536585382,
+    "currentMarketValue": 20.5,
+    "description": "200-Day Moving Average > Previous Close > 50-Day Moving Average AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 22.35,
+    "weight": 1.0902439024390245
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 20.5,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 20.5,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 146.86814999999999,
+    "weight": 7.1643
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 20.5,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 214.56734999999998,
+    "weight": 10.4667
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 20.5,
+    "description": "(Quarterly Earnings Growth (yoy) = NA",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 20.5,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 20.5,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0398,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 20.5,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:56:37.392Z [APPLICATION] INFO: Ticker: (LAND)
+2022-10-27T20:56:48.319Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 0.537,
+    "Forward Annual Dividend Rate": 0.55,
+    "currentMarketValue": 20.15,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 20.637802607076345,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "Quarterly Revenue Growth (yoy)": "66.39",
+    "PE Ratio (TTM)": "N/A",
+    "currentMarketValue": "N/A",
+    "description": "Quarterly Revenue Growth (yoy) OR PE Ratio (TTM) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.714346,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.4672131147540984,
+    "percentSwing": -0.3325062034739454,
+    "currentMarketValue": 20.15,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 26.849999999999998,
+    "weight": -0.9647642679900744
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 20.15,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 20.15,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 27.043315,
+    "weight": 1.3421
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 20.15,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 33.527584999999995,
+    "weight": 1.6639
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 20.15,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 30.845619999999997,
+    "weight": 1.5308
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 20.15,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 20.15,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0209,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 20.15,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:56:48.319Z [APPLICATION] INFO: Ticker: (STAG)
+2022-10-27T20:56:58.009Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.44,
+    "Forward Annual Dividend Rate": 1.46,
+    "currentMarketValue": 30.11,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 30.52819444444444,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 30.11,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 30.11,
+    "weight": -1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.987654,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 1,
+    "percentSwing": -0.16306874792427767,
+    "currentMarketValue": 30.11,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 30.16,
+    "weight": 1.0016605778811027
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 30.11,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 30.11,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 82.80852200000001,
+    "weight": 2.7502000000000004
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 30.11,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 166.860587,
+    "weight": 5.5417000000000005
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 30.11,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 45.318561,
+    "weight": 1.5051
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 30.11,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 30.11,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.044499997,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 30.11,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:56:58.010Z [APPLICATION] INFO: Ticker: (MAIN)
+2022-10-27T20:57:06.724Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 2.46,
+    "Forward Annual Dividend Rate": 2.58,
+    "currentMarketValue": 36.24,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 38.00780487804879,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 36.24,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 36.24,
+    "weight": -1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 1.240953,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.28191489361702127,
+    "percentSwing": -0.07036423841059594,
+    "currentMarketValue": 36.24,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 38.79,
+    "weight": -0.9577814569536424
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 36.24,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 36.24,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 61.455792,
+    "weight": 1.6958
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 36.24,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 140.99172000000002,
+    "weight": 3.8905000000000003
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 36.24,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 42.74508,
+    "weight": 1.1795
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 36.24,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 36.24,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0573,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 36.24,
+    "description": "Operating Cash Flow (ttm) < 0",
+    "estimatedStockPrice": "N/A",
+    "weight": -1
+  }
+}
+2022-10-27T20:57:06.724Z [APPLICATION] INFO: Ticker: (INTU)
+2022-10-27T20:57:19.225Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 2.24,
+    "Forward Annual Dividend Rate": 2.72,
+    "currentMarketValue": 424.39,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 515.3307142857142,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 424.39,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 424.39,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 1.136653,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 937,
+    "percentSwing": -0.05370060557506059,
+    "currentMarketValue": 424.39,
+    "description": "200-Day Moving Average > Previous Close > 50-Day Moving Average AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 443.84,
+    "weight": 1.0458304861094747
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 424.39,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 424.39,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 1626.135163,
+    "weight": 3.8317
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 424.39,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 458.3412,
+    "weight": 1.08
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 424.39,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 440.94120999999996,
+    "weight": 1.039
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 424.39,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 424.39,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.006,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 424.39,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:57:19.225Z [APPLICATION] INFO: Ticker: (WM)
+2022-10-27T20:57:30.507Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 2.21,
+    "Forward Annual Dividend Rate": 2.6,
+    "currentMarketValue": 159.97,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 188.20000000000002,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 159.97,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 159.97,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.780332,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 1,
+    "percentSwing": 0.053822591735950574,
+    "currentMarketValue": 159.97,
+    "description": "50-Day Moving Average > Previous Close > 200-Day Moving Average AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 166.52,
+    "weight": 1.040945177220729
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 159.97,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 159.97,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 829.156504,
+    "weight": 5.1832
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 159.97,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 170.879954,
+    "weight": 1.0682
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 159.97,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 1590.1018,
+    "weight": 9.94
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 159.97,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 159.97,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.015800001,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 159.97,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:57:30.507Z [APPLICATION] INFO: Ticker: (AWK)
+2022-10-27T20:57:41.332Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.65,
+    "Forward Annual Dividend Rate": 2.62,
+    "currentMarketValue": 139.22,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 221.06448484848485,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 139.22,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 139.22,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.436781,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.9987163029525032,
+    "percentSwing": -0.0600488435569601,
+    "currentMarketValue": 139.22,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 147.57999999999998,
+    "weight": -0.9745007901163625
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 139.22,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 139.22,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 391.959988,
+    "weight": 2.8154
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 139.22,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 142.21323,
+    "weight": 1.0215
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 139.22,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 272.8712,
+    "weight": 1.96
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 139.22,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 139.22,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.016900001,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 139.22,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:57:41.333Z [APPLICATION] INFO: Ticker: (ECL)
+2022-10-27T20:57:52.839Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.9,
+    "Forward Annual Dividend Rate": 2.04,
+    "currentMarketValue": 152.21,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 163.42547368421054,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "Quarterly Revenue Growth (yoy)": "5.21",
+    "PE Ratio (TTM)": "N/A",
+    "currentMarketValue": "N/A",
+    "description": "Quarterly Revenue Growth (yoy) OR PE Ratio (TTM) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 1.030225,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": 781,
+    "percentSwing": -0.07548781289008612,
+    "currentMarketValue": 152.21,
+    "description": "200-Day Moving Average > 50-Day Moving Average > Previous Close AND Volume Discrepancy is > 0",
+    "estimatedStockPrice": 156.32,
+    "weight": 1.0270021680572892
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 152.21,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 152.21,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 588.398197,
+    "weight": 3.8657
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 152.21,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 160.140141,
+    "weight": 1.0521
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 152.21,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 342.32029000000006,
+    "weight": 2.249
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 152.21,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 152.21,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0124,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": "N/A",
+    "description": "Operating Cash Flow (ttm) Equals N/A ",
+    "estimatedStockPrice": 152.21,
+    "weight": "N/A"
+  }
+}
+2022-10-27T20:57:52.839Z [APPLICATION] INFO: Ticker: (NEE)
+2022-10-27T20:58:03.627Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.435,
+    "Forward Annual Dividend Rate": 1.62,
+    "currentMarketValue": 75.6,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 85.34634146341463,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 75.6,
+    "description": "PEG Ratio > .5 and Dividend Payout Ratio > .5",
+    "estimatedStockPrice": 75.6,
+    "weight": 1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 0.449127,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.125,
+    "percentSwing": 0.03650793650793639,
+    "currentMarketValue": 75.6,
+    "description": "50-Day Moving Average > 200-Day Moving Average > Previous Close AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 72.84,
+    "weight": -0.9634920634920636
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 75.6,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 75.6,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 77.08176,
+    "weight": 1.0196
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 75.6,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 82.09404,
+    "weight": 1.0859
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 75.6,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 77.76216,
+    "weight": 1.0286
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 75.6,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 75.6,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.019199999,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 75.6,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:58:03.628Z [APPLICATION] INFO: Ticker: (AM)
+2022-10-27T20:58:15.168Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 1.147,
+    "Forward Annual Dividend Rate": 0.9,
+    "currentMarketValue": 10.3,
+    "description": "Trailing Annual Dividend Rate > Forward Annual Dividend Rate",
+    "estimatedStockPrice": 8.0819529206626,
+    "weight": 1
+  },
+  "2.) Peg Ratio and EPS": {
+    "currentMarketValue": 10.3,
+    "description": "PEG Ratio < .5 and Dividend Payout Ratio < 1",
+    "estimatedStockPrice": 10.3,
+    "weight": -1
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 2.516815,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.3333333333333333,
+    "percentSwing": -0.011650485436893128,
+    "currentMarketValue": 10.3,
+    "description": "Previous Close > 200-Day Moving Average > 50-Day Moving Average AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 10.12,
+    "weight": -1.01747572815534
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 10.3,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 10.3,
+    "description": "(Short % of Shares Outstanding) > 30% ",
+    "estimatedStockPrice": 59.48250000000001,
+    "weight": 5.775
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 10.3,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 93.91025,
+    "weight": 9.1175
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 10.3,
+    "description": "(Quarterly Earnings Growth (yoy) = NA",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 10.3,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 10.3,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.089499995,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 10.3,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:58:15.168Z [APPLICATION] INFO: Ticker: (XOM)
+2022-10-27T20:58:26.836Z [APPLICATION] INFO: {
+  "1.) Dividend Rate Comparison": {
+    "Trailing Annual Dividend Rate": 3.48,
+    "Forward Annual Dividend Rate": 3.52,
+    "currentMarketValue": 107.14,
+    "description": "Trailing Annual Dividend Rate < Forward Annual Dividend Rate",
+    "estimatedStockPrice": 108.37149425287357,
+    "weight": -1
+  },
+  "2.) Peg Ratio and EPS": {
+    "Quarterly Revenue Growth (yoy)": "90.05",
+    "PE Ratio (TTM)": "N/A",
+    "currentMarketValue": "N/A",
+    "description": "Quarterly Revenue Growth (yoy) OR PE Ratio (TTM) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "3.) Beta Swings": {
+    "Beta (5Y Monthly)": 1.051936,
+    "currentMarketValue": "N/A",
+    "description": "52-Week Change OR S&P500 52-Week Change OR Beta (5Y Monthly) Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "5.) Moving Average Mean Reversions": {
+    "volumeDiscrepancy": -0.10526315789473684,
+    "percentSwing": 0.07429531454172106,
+    "currentMarketValue": 107.14,
+    "description": "Previous Close > 50-Day Moving Average > 200-Day Moving Average AND Volume Discrepancy is < 0",
+    "estimatedStockPrice": 115.1,
+    "weight": -1.0742953145417211
+  },
+  "6.) Stock Movement Seven Days": {
+    "closingHistories": [],
+    "currentMarketValue": 107.14,
+    "description": "No Trend In Stock Movement",
+    "estimatedStockPrice": "N/A",
+    "weight": 0
+  },
+  "7.) % of Shares Short": {
+    "currentMarketValue": 107.14,
+    "description": "(Short % of Shares Outstanding) < 5% ",
+    "estimatedStockPrice": 111.672022,
+    "weight": 1.0423
+  },
+  "8.) Revenue Growth": {
+    "currentMarketValue": 107.14,
+    "description": "(Quarterly Revenue Growth (yoy) > 0",
+    "estimatedStockPrice": 203.61957,
+    "weight": 1.9005
+  },
+  "9.) Earnings Growth": {
+    "currentMarketValue": 107.14,
+    "description": "(Quarterly Earnings Growth (yoy) > 0",
+    "estimatedStockPrice": 127.34660400000001,
+    "weight": 1.1886
+  },
+  "10.) Trailing P/E vs.Forward P/E": {
+    "Trailing P/E": null,
+    "Forward P/E": null,
+    "currentMarketValue": "N/A",
+    "description": "Trailing P/E OR Forward P/E Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "11.) Ability to Pay Current Liabilities": {
+    "Current Assets": null,
+    "Current Liabilities": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Assets OR Current Liabilities Equals N/A ",
+    "estimatedStockPrice": "N/A",
+    "weight": "N/A"
+  },
+  "12.) Stock Buy Backs": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 107.14,
+    "weight": "N/A"
+  },
+  "13.) Treasury": {
+    "Current Issued Shares": null,
+    "Previous Issued Shares": null,
+    "currentMarketValue": "N/A",
+    "description": "Current Issued Shares OR Previous Issued Shares Equals N/A ",
+    "estimatedStockPrice": 107.14,
+    "weight": "N/A"
+  },
+  "14.) Market Equilibrium": {
+    "10 Year Govt Treasury (YTM)": "3.96",
+    "Yoy CPI": "+8.2%",
+    "Dividend Yield": 0.0363,
+    "currentMarketValue": "N/A",
+    "description": "CPI % > Dividend Yield % > 10 Year Treasury",
+    "weight": -1
+  },
+  "21.) Free CashFlow Yield PerStock": {
+    "currentMarketValue": 107.14,
+    "description": "Operating Cash Flow (ttm) > 0",
+    "estimatedStockPrice": "N/A",
+    "weight": 1
+  }
+}
+2022-10-27T20:58:26.837Z [APPLICATION] INFO: Ticker: (F)
+2022-10-27T20:58:33.032Z [APPLICATION] INFO: Error: Failed to get crumb (404 - "<html><meta charset='utf-8'><script>if(window!=window.top){document.write('<p>Content is currently unavailable.</p><img src=\"//geo.yahoo.com/p?s=1197757039&t='+new Date().getTime()+'&_R='+encodeURIComponent(document.referrer)+'&err=404&err_url='+'https%3A%2F%2Ffinance.yahoo.com%2Fquote%2FF%2Fhistory'+'\" width=\"0px\" height=\"0px\"/>');}else{window.location.replace('https://www.yahoo.com/?err=404&err_url=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2FF%2Fhistory');}</script><noscript><META http-equiv=\"refresh\" content=\"0;URL='https://www.yahoo.com/?err=404&err_url=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2FF%2Fhistory'\"></noscript></html>")
+2022-10-27T20:58:33.319Z [APPLICATION] INFO: TypeError: Cannot read properties of null (reading 'financialData')
